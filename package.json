@@ -1,7 +1,7 @@
 {
   "name": "oauth2orize-audience",
   "version": "0.0.0",
-  "description": "Extensions to support audience with OAuth2orize.",
+  "description": "Extensions to support audience indicators with OAuth2orize.",
   "keywords": [
     "oauth2"
   ],
