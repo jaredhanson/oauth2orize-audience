@@ -1,0 +1,38 @@
+{
+  "name": "oauth2orize-audience",
+  "version": "0.0.0",
+  "description": "Extensions to support audience with OAuth2orize.",
+  "keywords": [
+    "oauth2"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "repository": {    "type": "git",
+    "url": "git://github.com/jaredhanson/oauth2orize-audience.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/oauth2orize-audience/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "make-node": "^0.3.0",
+    "mocha": "^2.0.0",
+    "chai": "^3.0.0",
+    "chai-oauth2orize-grant": "0.2.x"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  }
+}
