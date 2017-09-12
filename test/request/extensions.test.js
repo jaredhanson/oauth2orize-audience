@@ -46,6 +46,32 @@ describe('authorization request extensions', function() {
       });
     });
     
+    describe('request with aud parameter', function() {
+      var err, ext;
+      
+      before(function(done) {
+        chai.oauth2orize.grant(extensions())
+          .req(function(req) {
+            req.query = {};
+            req.query.aud = 'https://api.example.com/';
+          })
+          .parse(function(e, o) {
+            err = e;
+            ext = o;
+            done();
+          })
+          .authorize();
+      });
+      
+      it('should not error', function() {
+        expect(err).to.be.null;
+      });
+      
+      it('should parse request', function() {
+        expect(ext.audience).to.equal('https://api.example.com/');
+      });
+    });
+    
     describe('request without audience parameter', function() {
       var err, ext;
       
