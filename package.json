@@ -1,6 +1,6 @@
 {
   "name": "oauth2orize-audience",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Extensions to support audience indicators with OAuth2orize.",
   "keywords": [
     "oauth2"
@@ -25,8 +25,7 @@
     }
   ],
   "main": "./lib",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "make-node": "^0.3.0",
     "mocha": "^2.0.0",
