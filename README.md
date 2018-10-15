@@ -3,12 +3,6 @@
 [OAuth2orize](https://github.com/jaredhanson/oauth2orize) extension providing
 support for audience indicators.
 
----
-
-<p align="center"><a href="//pluralsight.pxf.io/c/1312135/448522/7490">Start a 10-day free trial at Pluralsight - Over 5,000 Courses Available</a></p>
-
----
-
 ## Install
 
     $ npm install oauth2orize-audience
